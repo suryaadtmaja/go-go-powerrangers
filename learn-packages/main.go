@@ -2,8 +2,10 @@ package main
 
 import (
 	"fmt"
+	"learn-packages/linked"
 	"learn-packages/math"
 	"learn-packages/readz"
+	sortz "learn-packages/sortz"
 )
 
 func main() {
@@ -15,4 +17,6 @@ func main() {
 	readz.CreateFile("Randomhehe")
 	readz.ListFiles()
 	readz.WalkingOnPath()
+	linked.Linkedz()
+	sortz.Swapz()
 }
